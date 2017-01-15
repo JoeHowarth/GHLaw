@@ -86,7 +86,7 @@ div.welc-text {
 .retainer {
   position: relative;
   height: 60vh;
-  background: url(assets/freight-train-601405_1920.jpg) no-repeat center center;
+  background: url(https://joehowarth.github.io/GHLaw/assets/freight-train-601405_1920.jpg) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   color: #eee;
@@ -218,12 +218,12 @@ div.welc-text {
 }
 
 #liese {
-  background: url(assets/lagarrtha.png) no-repeat center center;
+  background: url(https://joehowarth.github.io/GHLaw/assets/lagarrtha.png) no-repeat center center;
   background-size: cover;
 }
 
 #alan {
-  background: url(assets/new_diddy.png) no-repeat center center;
+  background: url(https://joehowarth.github.io/GHLaw/assets/new_diddy.png) no-repeat center center;
   background-size: cover;
 }
 
