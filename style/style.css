@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  border: 1px solid gray;
+  /*  border: 1px solid gray;*/
   box-sizing: border-box;
 }
 
@@ -151,20 +151,24 @@ div.welc-text {
 .bio {
   height: 80vh;
   position: relative;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 #team {
   position: absolute;
   top: 50px;
-  width: 200px;
+  width: 400px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  font-size: 30px;
 }
 
 .bio #container {
   position: absolute;
   bottom: 0;
+  width: 100%;
   height: 100%;
   padding-top: 150px;
   display: flex;
@@ -174,13 +178,18 @@ div.welc-text {
 }
 
 .lawyer {
-  height: 100vh;
+  height: 50%;
   width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
 .img_side {
   height: 100%;
-  width 40%;
+  width: 40%;
   padding: 40px;
   position: relative;
   display: flex;
@@ -190,6 +199,45 @@ div.welc-text {
   text-align: center;
 }
 
+#first {
+  order: 1;
+}
+
+.img_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#liese,
+#alan {
+  border-radius: 100% 80%;
+  height: 200px;
+  width: 200px;
+}
+
+#liese {
+  background: url(/assets/lagarrtha.png) no-repeat center center;
+  background-size: cover;
+}
+
+#alan {
+  background: url(/assets/new_diddy.png) no-repeat center center;
+  background-size: cover;
+}
+
+.background {
+  padding: 40px;
+  width: 60%;
+  height: 100%;
+  position: relative;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* Footer */
