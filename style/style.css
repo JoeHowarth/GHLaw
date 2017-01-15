@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 1px solid gray;
+  box-sizing: border-box;
+}
+
+body {
+  color: #444;
+  /*  color: black;*/
+}
+
+
+/* Splash Screen */
+
+.welcome {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(/assets/container-1638068_1920.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div.welc-text {
+  color: #000;
+  background: rgba(255, 255, 255, .5);
+  border: 2px solid black;
+}
+
+.welc-text h1 {
+  border-bottom: 2px solid black;
+  padding: 3px 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.welc-text p {
+  padding: 3px 10px;
+  font-family: sans-serif;
+}
+
+
+/* ~Content~ */
+
+
+/* Services */
+
+.services {
+  height: 30vh;
+  position: relative;
+  border: 4px solid #444;
+  letter-spacing: 0.25em;
+}
+
+.services h2 {
+  position: absolute;
+  top: 50%;
+  padding-left: 10px;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+#serv_list {
+  height: 100%;
+  width: 100%;
+  margin-left: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 4px solid #444;
+}
+
+.services p {
+  font-size: 50px
+}
+
+
+/* Retainer */
+
+.retainer {
+  position: relative;
+  height: 60vh;
+  background: url(/assets/freight-train-601405_1920.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #eee;
+}
+
+#ret_title,
+#ret_info {
+  width: 40%;
+  min-width: 200px;
+  background: rgba(1, 1, 1, .3);
+  display: flex;
+  flex-direction: column;
+}
+
+#ret_title {
+  height: 110px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  font-size: 29px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid #000;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+
+#ret_title h2 {
+  text-align: center;
+}
+
+#ret_info {
+  padding: 10px 20px;
+  padding-top: 115px;
+  width: 40%;
+  min-width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid #000;
+  border-top: 0px;
+  font-size: 20px;
+}
+
+.retainer li {
+  list-style-type: circle;
+}
+
+.retainer ul {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+
+/* BIOs */
+
+.bio {
+  height: 80vh;
+  position: relative;
+}
+
+#team {
+  position: absolute;
+  top: 50px;
+  width: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.bio #container {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.lawyer {
+  height: 100vh;
+  width: 100%;
+}
+
+.img_side {
+  height: 100%;
+  width 40%;
+  padding: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+/* Footer */
+
+#spacer {
+  height: 70px;
+}
+
+.footer {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #222;
+  border-top: black 3px;
+  color: white;
+}
+
+.footer h2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+#info {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.footer p {
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+
+/*
+.footer span {
+  border: 2px solid white;
+  background: #DE4633;
+  text-transform: uppercase;
+  padding: 3px;
+  border-radius: 5px;
+}*/
