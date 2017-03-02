@@ -58,6 +58,8 @@ div.welc-text {
 
 
 /* Services */
+
+
 /* Good til 973 */
 
 .services {
@@ -87,8 +89,7 @@ div.welc-text {
   align-items: flex-start;
   border-left: 4px solid #444;
   padding: 30px 0px;
-    padding-left: 80px;
-
+  padding-left: 80px;
 }
 
 .services p {
@@ -217,6 +218,7 @@ div.welc-text {
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow: visible;
 }
 
 #first {
@@ -228,13 +230,23 @@ div.welc-text {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all .5s;
 }
 
-#liese,
-#alan {
+.pic {
   border-radius: 100% 80%;
   height: 200px;
   width: 200px;
+      transition: all .7s;
+
+}
+
+.img_container:hover {
+  transform: scale(1.6);
+}
+
+.img_container:hover .pic {
+  border-radius: 40% 30%;
 }
 
 #liese {
