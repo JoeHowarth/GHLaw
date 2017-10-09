@@ -78,6 +78,7 @@ div.welc-text {
   transform: translateY(-50%);
   text-transform: uppercase;
   font-size: 40px;
+  
 }
 
 #serv_list {
@@ -246,7 +247,7 @@ div.welc-text {
 }
 
 .img_container:hover .pic {
-  border-radius: 40% 30%;
+  border-radius: 10% 15%;
 }
 
 #liese {
